@@ -7,17 +7,21 @@
   </head>
   <body>
     
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form 
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post"
+      >
       <fieldset>
         <legend>Personal information</legend>
           
         <label class="form-field">
             Surname:
           <input 
-          type="text"
-          name="surname" 
-          autocomplete="off"
-          required>
+            type="text"
+            name="surname" 
+            autocomplete="off"
+            required
+          >
         </label>
           
         <label class="form-field">
@@ -26,7 +30,8 @@
             type="text"
             name="name" 
             autocomplete="off"
-            required>
+            required
+          >
         </label>
           
         <label class="form-field">
@@ -36,14 +41,16 @@
             name="age" 
             value="12" 
             min="1"
-            max="100">
+            max="100"
+          >
         </label>
   
         <label class="form-field">
             Full date of birth:
           <input 
             type="date"
-            name="birth">
+            name="birth"
+          >
         </label>
   
         <label class="form-field">
@@ -52,7 +59,8 @@
             type="checkbox"
             name="term" 
             required
-            checked>
+            checked
+          >
         </label>
               
       </fieldset>
@@ -65,7 +73,8 @@
           <input 
             type="email" 
             placeholder="email@example.com" 
-            required>
+            required
+          >
         </label>
   
         <label class="form-field">
@@ -74,7 +83,8 @@
             type="password" 
             required 
             maxlength="30" 
-            minlength="8">
+            minlength="8"
+          >
         </label>
       </fieldset>
   
@@ -86,17 +96,19 @@
 
           <label >
             <input 
-            type="radio" 
-            name="radio-button" 
-            value="yes">
+              type="radio" 
+              name="radio-button" 
+              value="yes"
+            >
             - yes
           </label>
 
           <label>
             <input 
-            type="radio" 
-            name="radio-button" 
-            value="no">
+              type="radio" 
+              name="radio-button" 
+              value="no"
+            >
             - no
           </label>
 
@@ -105,14 +117,16 @@
            What is your favorite color?
           <input 
             type="color" 
-            name="color">
+            name="color"
+          >
         </label>
 
         <label class="form-field">
            What time do you go to bed?
           <input 
             type="time" 
-            name="time">
+            name="time"
+          >
         </label>
 
         <label class="form-field">
@@ -132,7 +146,8 @@
             name="range"
             max="10"
             min="0"
-            step="1">
+            step="1"
+          >
         </label>
 
       </fieldset>
@@ -142,9 +157,11 @@
               
         <label class="form-field">Comments:
           <textarea 
-          name="comments" 
-          cols="30" 
-          rows="3"></textarea>
+            name="comments" 
+            cols="30" 
+            rows="3"
+          >
+          </textarea>
         </label>
 
         <label class="form-field">
